@@ -1,0 +1,86 @@
+body, td, a, p, .h {
+    font-family: arial,sans-serif;
+}
+
+ul{
+    list-style: none;
+    padding-left: 30px;
+    
+}
+a{
+    color: black;
+}
+
+li{
+    display: inline-block;
+    padding-top: 20px;
+    font-size: small;
+    padding-right: 10px;
+
+}
+
+.logo{
+    text-align: center;
+    padding-top: 140px;
+}
+
+
+.searchBar{
+    border-radius: 2%;
+    text-align: center;
+    
+   
+}
+
+#bar{
+    padding-left: 20px;
+    width: 570px;
+    height: 45px;
+    border-radius: 20px;
+    border-color: rgb(247, 247, 247);
+    
+}
+
+.right{
+    float:right;
+    padding-top: 20px;
+    font-size: small;
+    padding-right: 10px;
+}
+
+
+#signIn{
+    padding-top: 0;
+    background-color: #4285f4;
+    color: blanchedalmond;
+}
+/*.btn{
+    background-color: grey;
+}*/
+
+.buttons{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.btn-light{
+background-color: #f8f8f8;;
+}
+
+footer{
+    bottom: 0;  
+    position: fixed;
+    display: block;
+   
+    background-color: #f2f2f2;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    line-height: 10px;
+    min-width: 100%;
+    
+}
+
+
+*,*:focus,*:hover{
+    outline:none;
+}
